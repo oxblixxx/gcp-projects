@@ -11,6 +11,9 @@ module "instances" {
 # source = "./modules/storage"
 #}
 
+module "vpc" {
+ source = "./modules/vpc"
+}
 
 terraform {
   backend "local" {
