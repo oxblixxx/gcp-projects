@@ -111,9 +111,8 @@ gcloud compute vpn-gateways create vpc-demo-vpn-gw1 --network on-prem --region u
 gcloud compute vpn-gateways create on-prem-vpn-gw1 --network on-prem --region us-east4
 ```
 
-
-# https://cloud.google.com/sdk/gcloud/reference/compute/routers
-# https://www.arin.net/resources/guide/asn/
+#### https://cloud.google.com/sdk/gcloud/reference/compute/routers
+#### https://www.arin.net/resources/guide/asn/
 Create Cloud Routers
 
 ```sh
