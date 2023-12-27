@@ -41,6 +41,7 @@ gsutil lifecycle get gs://$BUCKET_NAME_1
 
 # Enable versioning for object
 #https://cloud.google.com/storage/docs/object-versioning
+
 View the current versioning of the bucket:
 
 ```sh
@@ -59,7 +60,7 @@ Verify if the versioning as been set:
 gsutil versioning get on gs://$BUCKET_NAME_1
 ```
 
-!(versioning)[images/versioning_1.png)
+![versioning](images/versioning_1.png)
 
 
 
