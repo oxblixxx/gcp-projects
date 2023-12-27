@@ -1,23 +1,34 @@
 # Task 1: Create a bucket 
 
-On navigation menu, navigate to storage, then buckets.
-Create a bucket, setting the name as a globally unique name, set region as multi-region, then create the bucket
-Enforce public access then click on confirm. Upload files to the bucket
-(images/gcp_iam-1.png)[gcp]
-Check username 2 to see they can view, then remove there viewer role afterwards. Click save.
+On navigation menu navigate to storage, then buckets. 
+- Create a bucket setting the name as a globally unique name.
+- Set region as multi-region, then create the bucket.
+- Enforce public access then click on confirm.
+- Upload files to the bucket
+- 
+![gcp-image](images/gcp_iam-1.png)
 
-[gcp_iam]
+# Task 2: Add storage access for a user.
+#https://cloud.google.com/iam/docs/grant-role-console
 
+Create a object viewer role a user. Fetch the username for the user.
+On the root console. Proceed to IAM & admin>IAM. 
+- Click on Grant access, put the username as the principal, then for product, select cloud storage, for role, select object viewer
 
-
-# Task 2: Add storage access
-
-Create a grant access role for user two, copy the value for there username, 
-On the username 1 console, proceed to IAM, click on Grant access, put the username as the principal, then for product, select cloud storage, for role, select object viewer
-
+![gcp-iam-grant-access](images/gcp_iam_2.png)
 
 # Setup service account
-On the IAM & ADMIN page, select service accounts. Create service account, set a descriptive name for the service account name
-then click on create and continue, click select a role, for service cloud storage>object viewer
-Click on the 3 dots. manage permissions. click on grant access. For the principal, uwe will be using an imaginary name,
+On the IAM & ADMIN page > service accounts.
+- Create service account, then set a descriptive name for the service account name, in this lab we will be using `read-bucket-objects` click on create and continue.
+- Click select a role, for the service cloudstorage>object viewer. Then click on done.
+- Click on the 3 dots. manage permissions. click on grant access. For the principal, put username preferred. 
 for products choose	Service Accounts > Service Account User. CLick on save
+
+# Create a compute engine
+Naviage to Compute Engine > Vm instances. Click create instance. Specify the instance service account as `read-bucket-objects`. When the user SSH into the instance if they have the permission. They will only be able to perform actions thats limits to the Storage Viewer role and nothing else they get a 403 access denied error message
+![service account](images/read_objects.png)
+
+
+
+
+
