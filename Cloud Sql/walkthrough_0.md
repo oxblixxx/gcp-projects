@@ -30,8 +30,8 @@ echo $SQL_CONNECTION
 
 Note: `Note: The proxy will listen on 127.0.0.1:3306 (localhost) and proxy that connects securely to your Cloud SQL over a secure tunnel using the machine's external IP address.`
 
-# CONNECT AN APPLICATION TO THE CLOUD SQL INSTANCE
-In this task, you will connect a sample application to the Cloud SQL instance. Fetch the external ip address of the compute engine created, go to the address via your browser setup the MYSQL DB.
+# CONNECT TO CLOUDSQL VIA INTERNAL IP
+If you can host your application in the same region and VPC connected network as your Cloud SQL, you can leverage a more secure and performant configuration using Private IP. By using Private IP, you will increase performance by reducing latency and minimize the attack surface of your Cloud SQL instance because you can communicate with it exclusively over internal IPs. From th e navigation menu, navigate to SQL and to the created SQL instance. Copy the private ip address of the instance. Spin up a compute instance, setup mysql-client. 
 
 
 
