@@ -1,7 +1,7 @@
 # Create a Cloud Monitoring workspace
 In the naviagation menu navigate to Operations > Monitoring > Dashboards > Create Dashboards > Add Widgets > Line. Then add `widget title`. Click on select a metric > VM instances, naviagate to CPU usage.
 
-![cpu usage](/images/cpu_usage.png)
+![cpu usage](images/cpu_usage.png)
 
 Explore the add filter, click on Apply on the top right corner. Click on `Add widget` when you need to add another dashboard.
 
