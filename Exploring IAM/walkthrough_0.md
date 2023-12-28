@@ -5,6 +5,7 @@ On navigation menu navigate to storage, then buckets.
 - Set region as multi-region, then create the bucket.
 - Enforce public access then click on confirm.
 - Upload files to the bucket
+  
 ![gcp-image](images/gcp_iam-1.png)
 
 # Task 2: Add storage access for a user.
