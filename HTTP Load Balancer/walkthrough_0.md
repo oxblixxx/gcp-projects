@@ -96,4 +96,4 @@ This explains what the code does:
 
 Proceed to Network Services > Load balancing. Then click on Monitoring. 
 
-![lb-image]()
+![lb-image](images/lb.png)
