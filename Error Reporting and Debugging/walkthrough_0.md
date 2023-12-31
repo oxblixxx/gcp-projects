@@ -48,7 +48,7 @@ gcloud app browse
 
 
 # Exploring Error Reporting Service
-On the navigation menu, navigate to `Error Reporting`, there should be the app error there `ImportError: No module named webapp22`
+On the navigation menu, navigate to `Error Reporting`, there should be the app error there `ImportError: No module named webapp22`, View details and identify the cause.
 
 
 
