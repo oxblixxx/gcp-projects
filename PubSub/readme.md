@@ -1,0 +1,9 @@
+What you'll learn
+In this lab, you will do the following:
+
+- Learn the basics of Pub/Sub.
+- Create, delete, and list Pub/Sub topics.
+- Create, delete, and list Pub/Sub subscriptions.
+- Publish messages to a topic.
+- Use a pull subscriber to output individual topic messages.
+- Use a pull subscriber with a flag to output multiple messages.
