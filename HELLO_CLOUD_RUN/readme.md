@@ -1,1 +1,1 @@
-This lab covers building and deploying a simple Node.js application as a serverless container using Cloud Run. You will enable required APIs, containerize the app, store it in Artifact Registry, deploy it to Cloud Run, and clean up unused images to reduce storage costs.
+This lab covers building and deploying a simple Node.js application as a serverless container using Cloud Run. The required APIs will be enable via cloud shell, containerize the app, store it in Artifact Registry, deploy it to Cloud Run, and clean up unused images to reduce storage costs.
