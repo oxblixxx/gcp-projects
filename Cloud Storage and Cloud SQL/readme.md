@@ -1,0 +1,1 @@
+This lab demonstrates how to create a Cloud Storage bucket, upload an image, and configure a Compute Engine application to connect to Cloud SQL. A PHP-based web server is set up and configured to retrieve and display the stored image.
