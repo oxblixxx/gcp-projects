@@ -123,3 +123,30 @@ Use the docker build to build the dockerfile
 gcloud builds submit --tag $LOCATION-docker.pkg.dev/$GOOGLE_CLOUD_PROJECT/my-repository/helloworld
 ```
 
+Note the $GOOGLE_CLOUD_PROJECT, that the project id
+Cloud Build is a service that executes your builds on Google Cloud. It executes a series of build steps, where each build step is run in a Docker container to produce your application container (or other artifacts) and push it to Artifact Registry, all in one command.
+
+On the terminal run
+
+```sh
+docker run -d -p 8080:8080 $LOCATION-docker.pkg.dev/$GOOGLE_CLOUD_PROJECT/my-repository/helloworld
+```
+Click the preview on the cloud shell, that similar to codespaces preview, to preview the running app
+
+
+## Deploy to Cloud Run
+
+Run the dockerized application, here the [gcloud run](https://docs.cloud.google.com/sdk/gcloud/reference/run/deploy) command is used
+
+```sh
+gcloud run deploy helloworld \
+    --image $LOCATION-docker.pkg.dev/$GOOGLE_CLOUD_PROJECT/my-repository/helloworld \
+    --allow-unauthenticated \
+    --region=$LOCATION
+```
+
+
+
+
+
+
