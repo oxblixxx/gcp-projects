@@ -1,0 +1,1 @@
+Complete the introductory Implementing Cloud Load Balancing for Compute Engine skill badge to demonstrate skills in the following: creating and deploying virtual machines in Compute Engine and configuring network and application load balancers.
