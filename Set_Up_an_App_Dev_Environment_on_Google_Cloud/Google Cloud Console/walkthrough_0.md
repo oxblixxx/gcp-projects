@@ -1,6 +1,3 @@
-This project entails setting google cloud storage via console, uploading an object and setting the object publicly accessible.
-
-## STEP 1
 From Google cloud landing page, click on the harmburger icon, towards the top left, navigate to cloud storage(hover), click on buckets, click on create. This are bucket naming rules to take note of.
 
 ```sh
