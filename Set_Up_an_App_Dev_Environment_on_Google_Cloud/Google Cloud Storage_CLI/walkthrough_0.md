@@ -8,7 +8,7 @@ gcloud storage buckets create gs://<YOUR-BUCKET-NAME>
 
 The bucket name has to be globally unique across Google Cloud Storage.
 
-```
+--- 
 
 With familiarity with Linux commands, the arguments of `gcloud storage` become easier to understand, with commands similar to `ls`, `cp`, `rm`, and so on.
 
