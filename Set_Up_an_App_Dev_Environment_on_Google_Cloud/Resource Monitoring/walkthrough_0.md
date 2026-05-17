@@ -109,7 +109,7 @@ To create a dashboard, navigate to Operations > Monitoring > Dashboards, then cl
 Next, set a widget title, click Select a Metric, and browse through the available metric categories. Apply any necessary filters (such as instance, zone, or resource type) to refine the data being displayed.
 
 # Logging
-
+Google Cloud Platform provides real-time log visibility for resources through its logging system. Logs can be viewed as they are generated and filtered based on resource type, making it easier to isolate and analyze specific services, instances, or workloads.
 
 
 
